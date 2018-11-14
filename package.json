@@ -1,11 +1,31 @@
 {
-  "name": "sendit",
+  "name": "sendit2",
   "version": "1.0.0",
-  "description": "this is for Andela challenge2",
+  "description": "challenge 2 for Andela",
   "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "express": "^4.16.4",
+    "heroku": "^7.18.7"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabankayitare/SendIT2.git"
   },
   "keywords": [
     "SendIT",
@@ -13,20 +33,8 @@
   ],
   "author": "shaban Kayitare",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+  "bugs": {
+    "url": "https://github.com/shabankayitare/SendIT2/issues"
   },
-  "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "eslint": "^5.9.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "mocha": "^5.2.0"
-  }
+  "homepage": "https://github.com/shabankayitare/SendIT2#readme"
 }
-
-"scripts": {
-    "test": "mocha"
-  }
